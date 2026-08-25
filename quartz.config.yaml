@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+﻿# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Quartz 5
   pageTitleSuffix: ""
@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: MJ77YT.github.io/campana-prueba
+  baseUrl: MJ77YT.github.io/campa-a-prueba
   ignorePatterns:
     - private
     - templates
@@ -303,3 +303,4 @@ layout:
         right: []
     canvas: {}
     bases: {}
+
