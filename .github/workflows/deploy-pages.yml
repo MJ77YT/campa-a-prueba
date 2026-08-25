@@ -1,4 +1,4 @@
-name: Publicar Quartz en GitHub Pages
+﻿name: Publicar Quartz en GitHub Pages
 
 on:
   push:
@@ -33,6 +33,8 @@ jobs:
       - run: npm run install-plugins
       - run: npx quartz build
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v4
         with:
           path: public
